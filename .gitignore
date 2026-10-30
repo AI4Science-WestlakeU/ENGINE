@@ -1,0 +1,20 @@
+Markdown/
+*.zip
+__pycache__/
+NeurIPS2026-ENGINE/
+key/
+
+# Local environments and generated experiment artifacts
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.py[cod]
+.pytest_cache/
+results_demo/
+results/
+checkpoints/
+wandb/
+lightning_logs/
+*.log
