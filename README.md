@@ -8,6 +8,8 @@ This repository provides the official implementation of **ENGINE**, a zeroth-ord
 **Accepted at NeurIPS 2026.**  
 **Corresponding author:** Tailin Wu (`wutailin@westlake.edu.cn`).
 
+[Paper](https://arxiv.org/abs/2611.03293) · [Project webpage](https://dominator-index.github.io/ENGINE-website/)
+
 ## Installation
 
 Use a Python environment with a CUDA-compatible PyTorch installation for LLM experiments.
@@ -169,4 +171,20 @@ The existing unit tests use toy models and do not download LLM checkpoints:
 
 ```bash
 python -m unittest discover -s tests -v
+```
+
+## Citation
+
+If you find ENGINE useful for your research, please cite our paper.
+
+```bibtex
+@misc{ouyang2026engineendogenousvariationalmultiscale,
+      title={ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning},
+      author={Zhuoli Ouyang and Changxi Chi and Siyuan Li and Tailin Wu},
+      year={2026},
+      eprint={2611.03293},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.03293},
+}
 ```
