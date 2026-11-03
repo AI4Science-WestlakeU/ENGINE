@@ -1,4 +1,4 @@
-## ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning
+# ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning (NeurIPS 2026)
 
 This repository provides the official implementation of **ENGINE**, a zeroth-order LLM fine-tuning method that brings the **Variational MultiScale (VMS)** view from computational mechanics into the LoRA–LOREN setting. ENGINE achieves **higher accuracy** and **faster convergence** than existing ZO methods.
 
@@ -179,12 +179,12 @@ If you find ENGINE useful for your research, please cite our paper.
 
 ```bibtex
 @misc{ouyang2026engineendogenousvariationalmultiscale,
-      title={ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning},
-      author={Zhuoli Ouyang and Changxi Chi and Siyuan Li and Tailin Wu},
-      year={2026},
-      eprint={2611.03293},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2611.03293},
+  title={ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning},
+  author={Zhuoli Ouyang and Changxi Chi and Siyuan Li and Tailin Wu},
+  year={2026},
+  eprint={2611.03293},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2611.03293},
 }
 ```
